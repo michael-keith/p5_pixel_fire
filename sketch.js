@@ -9,7 +9,7 @@ function setup() {
   grid_height = int(height / cell_width) + 6;
 
   createCanvas(width, height);
-  frameRate(0);
+  frameRate(20);
 
   //Create the cell array
   for(let y = 0; y<grid_height; y++) {
